@@ -1,0 +1,53 @@
+A testing aid for mod development. It speeds a game up so that checking a change takes minutes rather than an evening.
+
+[h2]How to use it[/h2]
+Subscribe once and leave it on. Every option defaults to off, so a normal game is unaffected.
+
+For a test game, open [b]Advanced Setup[/b]. The options are in two sections. Hover an option to see what it does.
+
+[b]Dev Speed Boost: every player[/b] changes rules the AI shares:
+[list]
+[*]Costs: 100% (normal) down to 1%
+[*]Repeat costs: 100% (normal), 50%, 0%
+[*]Age length: 10% to 300% of normal
+[*]Scouts cross oceans: Off, On
+[/list]
+
+[b]Dev Speed Boost: human players[/b] leaves the AI alone:
+[list]
+[*]Starting gold: none to 1,000,000
+[*]Gold per turn: none to +25,000
+[*]Starting influence: none to 100,000
+[*]City growth: normal to +1000% Growth Rate
+[*]Settlement population: normal to +10 when founded
+[*]Happiness: normal to +100 per settlement per turn
+[*]Celebration length: -50% to +300%
+[*]Policy slots: normal to +5
+[*]Legacy points: none to +10 in each category
+[*]Unit movement: normal to +10
+[*]Unit sight: normal to +5
+[*]Ignore terrain: Off, Merchants and Settlers, All units
+[*]Merchant movement: normal to +50, on top of unit movement
+[*]Settler movement: normal to +20, on top of unit movement
+[*]Trade route range: normal to +20, or unlimited
+[*]Trade routes: normal to +10
+[*]Combat strength: normal to +50
+[*]Commander experience: normal to +1000%
+[*]Unit healing: normal to +100 per turn
+[*]Reveal map: Off, On
+[*]Settlement cap: normal to +100
+[/list]
+
+Costs cover buildings, wonders, units, projects, techs and civics. The cost cut loads late, so it also scales costs set by the mod you are testing. Starting gold and influence are granted once, when the game starts. A game started in the Modern age needs the larger amounts.
+
+[h2]Compatibility[/h2]
+[list]
+[*]The options change rules and are fixed once the game starts.
+[*]A save made with the mod enabled needs it enabled to load, even if every option was off. Disable the mod before starting a game to share.
+[/list]
+
+[h2]AI use[/h2]
+The code and docs for this mod were written with AI, using Claude Code. The mod is tested by playing the game.
+
+[h2]Source and bug reports[/h2]
+The code is on [url=https://github.com/don-pablo-bablo/civ7_dev_speed_boost]GitHub[/url] under the MIT licence. Report bugs there.
