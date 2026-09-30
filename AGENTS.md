@@ -16,18 +16,18 @@ only.
 
 ## Tools
 
-civ7lab lives in `../civ7lab`.
+civ7lab lives in `../civ7lab`, installed as the `civ7lab` command.
 
-- **Offline**: from `../civ7lab`, run `python3 -m civ7lab sql
-  ../civ7_dev_speed_boost/mod/dev-speed-boost --age AGE_ANTIQUITY --prefix DSB`.
+- **Offline**: run `civ7lab sql mod/dev-speed-boost --age AGE_ANTIQUITY
+  --prefix DSB`.
   It treats every criterion as met, so it applies every option value at once.
   Ignore its `options.xml` failure: it applies the shell-scope file to the
   gameplay database. GameEffects files are checked for structure only.
 - **Baseline**: by default the dump from the last game played, so a modifier
   that game already had does not show as added. A dump taken at the main menu
   is empty. Pass `--db` with a copy of a dump taken during play instead.
-- **Live**: with the game running and the inspector on, `python3 -m civ7lab
-  live eval --expression '...'` reads unit, city and player state. Use it
+- **Live**: with the game running and the inspector on, `civ7lab live eval
+  '...'` reads unit, city and player state. Use it
   before asking for screenshots. It showed Merchant movement applied, 64 moves,
   when it looked broken; the cause was terrain. `Units.getPathTo` shows where a
   planned move stops and which plots are obstacles.
