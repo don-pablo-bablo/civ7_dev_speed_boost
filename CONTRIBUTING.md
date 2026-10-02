@@ -54,8 +54,16 @@ setup sections or their text needs a full game restart as well.
 - **What the setup screen stored**: `GameCoreAppConfig.log`, keyed by hash.
 - **Errors**: `Database.log` for data, `Localization.log` for text.
 
-The data can also be checked offline, and a running game read directly, with a
-development tool we use that has not been released publicly yet.
+The data can also be checked offline, and a running game read directly, with
+[civ7lab](https://github.com/don-pablo-bablo/civ7lab):
+
+```bash
+civ7lab sql mod/dev-speed-boost --age AGE_ANTIQUITY --prefix DSB
+civ7lab live eval 'Game.turn'
+```
+
+`sql` treats every criterion as met, so it applies every option value at
+once.
 
 ## Writing style
 
