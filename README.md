@@ -1,5 +1,11 @@
 # Dev Speed Boost
 
+**Moved.** Dev Speed Boost now ships with
+[civ7lab](https://github.com/don-pablo-bablo/civ7lab), a test bench for Civ VII
+mods: `civ7lab mod install dev-speed-boost`. Its docs are in
+[docs/dev-speed-boost.md](https://github.com/don-pablo-bablo/civ7lab/blob/main/docs/dev-speed-boost.md)
+there. This repo is archived and no longer updated.
+
 A Civilization VII testing aid for mod development. It speeds a game up so
 that checking a change takes minutes rather than an evening.
 

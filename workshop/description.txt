@@ -1,3 +1,5 @@
+[b]Moved.[/b] Dev Speed Boost is no longer updated here. It now ships with civ7lab, a test bench for Civ VII mods: [url=https://github.com/don-pablo-bablo/civ7lab]github.com/don-pablo-bablo/civ7lab[/url]. If you are subscribed, your copy keeps working and your saves still load.
+
 A testing aid for mod development. It speeds a game up so that checking a change takes minutes rather than an evening.
 
 [h2]How to use it[/h2]
